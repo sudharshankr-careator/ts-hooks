@@ -1,3 +1,5 @@
+import CustomHookComponent from "./CustomHookComponent";
+import TestComponent from "./EvenMoreReactComponent";
 import UseContextComponent from "./UseContextComponent";
 import UseEffectComponent from "./UseEffectComponent";
 import UseReducerComponent from "./UseReducerCompoent";
@@ -16,6 +18,10 @@ function App() {
 			<UseReducerComponent />
 			<h1>useRef</h1>
 			<UseRefComponent />
+			<h1>CustomHook</h1>
+			<CustomHookComponent />
+			<h1>EvenMoreReactComponent</h1>
+			<TestComponent />
 		</div>
 	);
 }

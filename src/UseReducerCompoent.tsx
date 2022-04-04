@@ -36,7 +36,7 @@ function UseReducerComponent() {
 				>
 					increament
 				</button>{" "}
-				|
+				|{" "}
 				<button
 					onClick={() =>
 						dispatch({
